@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 const elixir = require('laravel-elixir');
 
 require('laravel-elixir-vue');
+=======
+var elixir = require('laravel-elixir');
+>>>>>>> origin/master
 
 /*
  |--------------------------------------------------------------------------
@@ -13,7 +17,12 @@ require('laravel-elixir-vue');
  |
  */
 
+<<<<<<< HEAD
 elixir(mix => {
     mix.sass('app.scss')
        .webpack('app.js');
+=======
+elixir(function(mix) {
+    mix.sass('app.scss');
+>>>>>>> origin/master
 });

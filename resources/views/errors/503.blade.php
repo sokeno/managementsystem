@@ -17,7 +17,11 @@
                 color: #B0BEC5;
                 display: table;
                 font-weight: 100;
+<<<<<<< HEAD
                 font-family: 'Lato', sans-serif;
+=======
+                font-family: 'Lato';
+>>>>>>> origin/master
             }
 
             .container {

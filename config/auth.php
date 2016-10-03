@@ -98,6 +98,10 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
+<<<<<<< HEAD
+=======
+            'email' => 'auth.emails.password',
+>>>>>>> origin/master
             'table' => 'password_resets',
             'expire' => 60,
         ],

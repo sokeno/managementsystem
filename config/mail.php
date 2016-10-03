@@ -55,10 +55,14 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'from' => [
         'address' => 'hello@example.com',
         'name' => 'Example',
     ],
+=======
+    'from' => ['address' => null, 'name' => null],
+>>>>>>> origin/master
 
     /*
     |--------------------------------------------------------------------------

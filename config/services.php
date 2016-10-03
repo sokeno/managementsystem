@@ -8,7 +8,11 @@ return [
     |--------------------------------------------------------------------------
     |
     | This file is for storing the credentials for third party services such
+<<<<<<< HEAD
     | as Stripe, Mailgun, SparkPost and others. This file provides a sane
+=======
+    | as Stripe, Mailgun, Mandrill, and others. This file provides a sane
+>>>>>>> origin/master
     | default location for this type of information, allowing packages
     | to have a conventional place to find your various credentials.
     |
@@ -19,6 +23,13 @@ return [
         'secret' => env('MAILGUN_SECRET'),
     ],
 
+<<<<<<< HEAD
+=======
+    'mandrill' => [
+        'secret' => env('MANDRILL_SECRET'),
+    ],
+
+>>>>>>> origin/master
     'ses' => [
         'key' => env('SES_KEY'),
         'secret' => env('SES_SECRET'),

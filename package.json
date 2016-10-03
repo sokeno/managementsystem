@@ -5,6 +5,7 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
     "jquery": "^3.1.0",
@@ -14,5 +15,10 @@
     "lodash": "^4.14.0",
     "vue": "^1.0.26",
     "vue-resource": "^0.9.3"
+=======
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "bootstrap-sass": "^3.3.0"
+>>>>>>> origin/master
   }
 }

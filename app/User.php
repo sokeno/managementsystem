@@ -2,13 +2,19 @@
 
 namespace App;
 
+<<<<<<< HEAD
 use Illuminate\Notifications\Notifiable;
+=======
+>>>>>>> origin/master
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+<<<<<<< HEAD
     use Notifiable;
 
+=======
+>>>>>>> origin/master
     /**
      * The attributes that are mass assignable.
      *

@@ -51,6 +51,7 @@ return [
 
         'memcached' => [
             'driver' => 'memcached',
+<<<<<<< HEAD
             'persistent_id' => env('MEMCACHED_PERSISTENT_ID'),
             'sasl'       => [
                 env('MEMCACHED_USERNAME'),
@@ -59,6 +60,8 @@ return [
             'options'    => [
                 // Memcached::OPT_CONNECT_TIMEOUT  => 2000,
             ],
+=======
+>>>>>>> origin/master
             'servers' => [
                 [
                     'host' => env('MEMCACHED_HOST', '127.0.0.1'),

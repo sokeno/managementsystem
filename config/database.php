@@ -13,7 +13,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'fetch' => PDO::FETCH_OBJ,
+=======
+    'fetch' => PDO::FETCH_CLASS,
+>>>>>>> origin/master
 
     /*
     |--------------------------------------------------------------------------
@@ -62,7 +66,11 @@ return [
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
+<<<<<<< HEAD
             'strict' => true,
+=======
+            'strict' => false,
+>>>>>>> origin/master
             'engine' => null,
         ],
 
@@ -76,7 +84,10 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
+<<<<<<< HEAD
             'sslmode' => 'prefer',
+=======
+>>>>>>> origin/master
         ],
 
     ],

@@ -14,6 +14,10 @@ class ExampleTest extends TestCase
     public function testBasicExample()
     {
         $this->visit('/')
+<<<<<<< HEAD
              ->see('Laravel');
+=======
+             ->see('Laravel 5');
+>>>>>>> origin/master
     }
 }

@@ -13,7 +13,11 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
+<<<<<<< HEAD
         //
+=======
+        // Commands\Inspire::class,
+>>>>>>> origin/master
     ];
 
     /**
@@ -27,6 +31,7 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
     }
+<<<<<<< HEAD
 
     /**
      * Register the Closure based commands for the application.
@@ -37,4 +42,6 @@ class Kernel extends ConsoleKernel
     {
         require base_path('routes/console.php');
     }
+=======
+>>>>>>> origin/master
 }

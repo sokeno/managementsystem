@@ -29,12 +29,18 @@ class Kernel extends HttpKernel
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
+<<<<<<< HEAD
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+=======
+>>>>>>> origin/master
         ],
 
         'api' => [
             'throttle:60,1',
+<<<<<<< HEAD
             'bindings',
+=======
+>>>>>>> origin/master
         ],
     ];
 
@@ -46,10 +52,16 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
+<<<<<<< HEAD
         'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
+=======
+        'auth' => \App\Http\Middleware\Authenticate::class,
+        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
+>>>>>>> origin/master
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
